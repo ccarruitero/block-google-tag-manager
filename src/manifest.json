@@ -1,0 +1,27 @@
+{
+  "name": "Google Tag Manager Blocker",
+  "short_name": "blockgtag",
+  "description": "Google Tag Manager Blocker allows you to block the GTag Manager",
+  "author": "Patrick Albrecht",
+  "version": "0.0.3",
+  "manifest_version": 2,
+  "permissions": [
+    "storage",
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "browser_action": {
+    "default_icon": "data/icons/icon.png"
+  },
+  "background":{
+    "scripts":[
+      "background.js"
+    ]
+  },
+  "homepage_url": "https://github.com/heubergen/block-google-tag-manager",
+  "icons": {
+    "49": "data/icons/icon.png"
+  }
+}
