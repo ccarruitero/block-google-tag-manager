@@ -29,7 +29,8 @@ var block = {
   },
   properties: {
     urls: [
-      '*://*.googletagmanager.com/*'
+      '*://*.googletagmanager.com/*',
+      '*://*.googletagservices.com/*'
     ],
     types: [
       'sub_frame',
